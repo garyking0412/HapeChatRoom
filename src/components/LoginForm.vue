@@ -1,16 +1,16 @@
 <template>
   <div class="login-form">
-    <h5 class="text-center">Chat Login</h5>
+    <h5 class="text-center">憨批登录</h5>
     <hr>
     <b-form @submit.prevent="onSubmit">
       <b-alert variant="danger" :show="hasError">{{ error }}</b-alert>
 
       <b-form-group id="userInputGroup"
-                    label="User Name"
+                    label="账号"
                     label-for="userInput">
         <b-form-input id="userInput"
                       type="text"
-                      placeholder="Enter user name"
+                      placeholder="输入账号"
                       v-model="userId"
                       autocomplete="off"
                       :disabled="loading"
@@ -22,7 +22,7 @@
                 class="ld-ext-right"
                 :class="{running: loading}"
                 :disabled="isValid">
-        Login <div class="ld ld-ring ld-spin"></div>
+        登录 <div class="ld ld-ring ld-spin"></div>
       </b-button>
     </b-form>
   </div>
@@ -72,5 +72,7 @@ export default {
 </script>
 
 <style>
-
+.ld-ext-right {
+  width: 100%;
+}
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="room-list">
-    <h4>Channels</h4>
+    <h4>房间</h4>
     <hr />
     <b-list-group v-if="activeRoom">
       <b-list-group-item

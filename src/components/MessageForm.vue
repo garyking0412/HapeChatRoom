@@ -14,7 +14,7 @@
           type="text"
           v-model="message"
           @input="isTyping"
-          placeholder="Enter Message"
+          placeholder="输入消息"
           autocomplete="off"
           required
         >
@@ -22,7 +22,7 @@
       </b-form-group>
       <div class="clearfix">
         <b-button type="submit" variant="primary" class="float-right">
-          Send
+          发送
         </b-button>
       </div>
     </b-form>

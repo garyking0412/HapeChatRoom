@@ -1,10 +1,10 @@
 <template>
   <div class="login">
-    <b-jumbotron  header="Vue.js Chat"
+    <b-jumbotron  header="欢迎使用憨批聊天室"
                   bg-variant="info"
                   text-variant="white">
-      <p>For more information visit website</p>
-      <b-btn target="_blank" href="https: //pusher.com/chatkit">More Info</b-btn>
+      <p>如有使用问题请点击下方按钮</p>
+      <b-btn target="_blank" href="https://www.baidu.com">寻求帮助</b-btn>
     </b-jumbotron>
     <b-container>
       <b-row>

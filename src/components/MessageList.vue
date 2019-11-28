@@ -1,6 +1,6 @@
 <template>
   <div class="message-list">
-    <h4>Messages</h4>
+    <h4>消息</h4>
     <hr />
     <div
       id="chat-messages"

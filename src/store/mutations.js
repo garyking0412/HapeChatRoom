@@ -42,6 +42,5 @@ export default {
     state.messages = [];
     state.rooms = [];
     state.user = null;
-    state.userTyping = null;
   }
 }
