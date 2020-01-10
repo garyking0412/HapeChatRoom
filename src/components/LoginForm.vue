@@ -1,6 +1,6 @@
 <template>
   <div class="login-form">
-    <h5 class="text-center">憨批登录</h5>
+    <h5 class="text-center">登录</h5>
     <hr>
     <b-form @submit.prevent="onSubmit">
       <b-alert variant="danger" :show="hasError">{{ error }}</b-alert>

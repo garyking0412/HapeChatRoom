@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <b-jumbotron  header="欢迎使用憨批聊天室"
+    <b-jumbotron  header="欢迎使用聊天室"
                   bg-variant="info"
                   text-variant="white">
       <p>如有使用问题请点击下方按钮</p>
@@ -26,6 +26,11 @@ export default {
   name: 'login',
   components: {
     LoginForm
+  },
+  mounted() {
+    const inner = [[],{name: 'ss'}];
+    const test =  [...inner, {age: 'lsix'}]
+    console.log(test);
   }
 }
 </script>
